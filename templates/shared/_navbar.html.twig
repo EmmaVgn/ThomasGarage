@@ -1,0 +1,48 @@
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+	<div class="container-fluid">
+		<a class="navbar-brand" href="/">
+			<img src="/css/medias/logo-removebg-preview.png" style="width: 20%"></a>
+		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarColor02">
+			<ul class="navbar-nav me-auto">
+				<li class="">
+					<a class="nav-link{% if app.request.attributes.get('_route') == '_RouteName' %}active{% endif %}" href="/">Accueil
+						<span class="visually-hidden">(current)</span>
+					</a>
+				</li>
+				<li class="">
+					<a class="nav-link {% if app.request.attributes.get('_route') == 'product_display' %}active{% endif %}" href="{{ path('product_display') }}">Achat véhicules d'occasions</a>
+				</li>
+				<li class="">
+					<a class="nav-link {% if app.request.attributes.get('_route') == 'service' %}active{% endif %}" href="{{ path('service') }}">Services</a>
+				</li>
+				<li class="">
+					<a class="nav-link {% if app.request.attributes.get('_route') == 'contact' %}active{% endif %}" href="{{ path('contact_index') }}">Contactez-nous</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav">
+				<li class="">
+					<a class="nav-link {% if app.request.attributes.get('_route') == 'product_display' %}active{% endif %}" href="{{ path('product_display') }}">
+						<i class="fa-solid fa-magnifying-glass"></i>
+					</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav">
+				{% if app.user %}
+					<li class="nav-item">
+						<a href="{{ path('admin') }}" class="btn btn-muted me-3">Admin</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ path('security_logout') }}" class="btn btn-dark">Logout</a>
+					</li>
+				{% else %}
+					<li class="nav-item">
+						<a href="{{ path('security_login') }}" class="btn btn-secondary">Login</a>
+					</li>
+				{% endif %}
+			</ul>
+		</div>
+	</div>
+</nav>
