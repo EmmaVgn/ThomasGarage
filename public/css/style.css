@@ -1,6 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap");
+
+@font-face {
+  font-family: "Josephin_Slab";
+  src: url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap");
+}
+
 body {
   list-style: none;
   text-decoration: none;
+  font-family: "Josephin_Slab", "Roboto_Slab", serif;
+}
+
+.navbar {
+  font-size: 1.1em;
+  font-family: "Aleo", sans-serif;
+}
+
+.footer {
+  font-size: 1.1em;
+  font-family: "Aleo", sans-serif;
 }
 
 .card.mb-3.me-2 > .card-body > .card-title {
@@ -740,16 +759,4 @@ span.rating i {
   .show-onlymobile {
     display: none !important;
   }
-}
-
-.pw-vehicle-search-shape-brand-list
-  .brand-model-list-container
-  .brand-list
-  .brand-list--mobile {
-  position: relative;
-  display: block;
-  margin-bottom: 1rem;
-  margin-left: 1rem;
-  border-radius: 9999em;
-  background-color: #eaebec;
 }
