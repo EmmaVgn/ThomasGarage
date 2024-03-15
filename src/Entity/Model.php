@@ -30,7 +30,7 @@ class Model
 
     #[Assert\Image(
         maxSize: '2M',
-        maxSizeMessage: 'L\'image est trop lourde ({{ size }} {{ suffix }}). 
+        maxSizeMessage: 'L\'image est trop lourde ({{ size }} {{ suffix }}).
         Le maximum autorisé est {{ limit }} {{ suffix }}',
         mimeTypes: [
             'image/jpeg',
