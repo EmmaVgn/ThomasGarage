@@ -26,11 +26,7 @@ use EasyCorp\Bundle\EasyAdminBundle\Controller\AbstractDashboardController;
 #[IsGranted('ROLE_USER')]
 class DashboardController extends AbstractDashboardController
 {
-    public function configureAssets(): Assets
-    {
-        return Assets::new()->addCssFile('css/admin.css');
-    }
-    
+
     #[Route('/admin', name: 'admin')]
     public function index(): Response
     {
