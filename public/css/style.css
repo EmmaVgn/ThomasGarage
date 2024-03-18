@@ -412,6 +412,7 @@ span.rating i {
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3,
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3 span {
   font-size: 3rem;
+  margin-top: 40rem;
 }
 
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3 span {
@@ -759,4 +760,16 @@ span.rating i {
   .show-onlymobile {
     display: none !important;
   }
+}
+
+.parent-element-to-video {
+  position: relative; /* or absolute or fixed */
+}
+video {
+  position: absolute;
+  left: 50%; /* % of surrounding element */
+  top: 50%;
+  object-fit: cover;
+  transform: translate(-50%, -50%); /* % of current element */
+  margin-bottom: 30px;
 }
