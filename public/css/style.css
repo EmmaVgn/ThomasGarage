@@ -387,7 +387,7 @@ span.rating i {
 
 @media (min-width: 960px) {
   .pw-vehicle-search-shape-brand-list {
-    margin-top: 0;
+    margin-top: 40rem;
   }
 }
 
@@ -718,6 +718,7 @@ span.rating i {
 @media (min-width: 1280px) {
   .pw-vehicle-search-shape-brand-list .brand-model-list-container .shape-list {
     width: 63%;
+    margin-left: 2rem;
   }
 
   .pw-vehicle-search-shape-brand-list .brand-model-list-container .brand-list {
