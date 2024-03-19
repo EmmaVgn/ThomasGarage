@@ -1,13 +1,13 @@
 @font-face {
-  font-family: "Josephin_Slab";
-  src: url("../css/Police/Josephin_Slab/JosephinSlab-Bold.ttf")
+  font-family: "Roboto_Slab";
+  src: url(/css/Police/Josefin_Slab,Roboto_Slab/Roboto_Slab/RobotoSlab-VariableFont_wght.ttf)
     format("truetype");
 }
 
 body {
   list-style: none;
   text-decoration: none;
-  font-family: "Josephin_Slab", "Roboto_Slab", serif;
+  font-family: "Roboto_Slab", serif;
 }
 
 .navbar {
@@ -392,7 +392,7 @@ span.rating i {
 @media (min-width: 960px) {
   .pw-vehicle-search-shape-brand-list .brand-model-list-container {
     display: flex;
-    margin-top: 41rem;
+    margin-top: 53rem;
   }
 }
 
@@ -762,6 +762,9 @@ span.rating i {
   }
 }
 
+/*--------------------------------------------------------------
+  # video
+  --------------------------------------------------------------*/
 .parent-element-to-video {
   position: relative; /* or absolute or fixed */
 }
@@ -772,4 +775,5 @@ video {
   object-fit: cover;
   transform: translate(-50%, -50%); /* % of current element */
   margin-bottom: 30px;
+  margin-top: 30px;
 }
