@@ -387,7 +387,7 @@ span.rating i {
 
 @media (min-width: 960px) {
   .pw-vehicle-search-shape-brand-list {
-    margin-top: 40rem;
+    margin-top: 35rem;
   }
 }
 
@@ -412,7 +412,7 @@ span.rating i {
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3,
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3 span {
   font-size: 3rem;
-  margin-top: 40rem;
+  margin-top: 35rem;
 }
 
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3 span {
@@ -718,7 +718,7 @@ span.rating i {
 @media (min-width: 1280px) {
   .pw-vehicle-search-shape-brand-list .brand-model-list-container .shape-list {
     width: 63%;
-    margin-left: 2rem;
+    margin-left: 10%;
   }
 
   .pw-vehicle-search-shape-brand-list .brand-model-list-container .brand-list {

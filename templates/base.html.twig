@@ -17,6 +17,7 @@
 		<link rel="icon" type="favicon" href="public/images/favicon.ico"/>
 		<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
 		{% block stylesheets %}
+			<link rel="stylesheet" href="{{ asset('styles/app.css') }}">
 			{{ encore_entry_link_tags('app') }}
 			<link rel="stylesheet" href="https://bootswatch.com/5/flatly/bootstrap.min.css">
 			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
@@ -24,6 +25,7 @@
 		{% endblock %}
 
 		{% block javascripts %}{% endblock %}
+		{{ importmap() }}
 		{{ encore_entry_script_tags('app') }}
 	</head>
 	<body>
