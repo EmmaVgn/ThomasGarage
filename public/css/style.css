@@ -1,9 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap");
-
 @font-face {
   font-family: "Josephin_Slab";
-  src: url("https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&display=swap");
+  src: url("../css/Police/Josephin_Slab/JosephinSlab-Bold.ttf")
+    format("truetype");
 }
 
 body {
@@ -387,13 +385,14 @@ span.rating i {
 
 @media (min-width: 960px) {
   .pw-vehicle-search-shape-brand-list {
-    margin-top: 35rem;
+    margin-top: 2rem;
   }
 }
 
 @media (min-width: 960px) {
   .pw-vehicle-search-shape-brand-list .brand-model-list-container {
     display: flex;
+    margin-top: 41rem;
   }
 }
 
@@ -412,7 +411,7 @@ span.rating i {
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3,
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3 span {
   font-size: 3rem;
-  margin-top: 35rem;
+  margin-top: 2rem;
 }
 
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3 span {
@@ -718,11 +717,11 @@ span.rating i {
 @media (min-width: 1280px) {
   .pw-vehicle-search-shape-brand-list .brand-model-list-container .shape-list {
     width: 63%;
-    margin-left: 10%;
   }
 
   .pw-vehicle-search-shape-brand-list .brand-model-list-container .brand-list {
     width: 37%;
+    margin-left: 10%;
   }
 }
 
