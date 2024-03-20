@@ -17,7 +17,7 @@ class ModelController extends AbstractController
         $this->modelRepository = $modelRepository;
     }
     
-    #[Route('/brand/{slug}', name: 'model')]
+    #[Route('/brand/{slug}', name: 'model', priority: -1)]
     public function model($slug, ModelRepository $modelRepository): Response
     {
         $model = $modelRepository->findOneBy([

@@ -12,12 +12,10 @@ body {
 
 .navbar {
   font-size: 1.1em;
-  font-family: "Aleo", sans-serif;
 }
 
 .footer {
   font-size: 1.1em;
-  font-family: "Aleo", sans-serif;
 }
 
 .card.mb-3.me-2 > .card-body > .card-title {
@@ -766,7 +764,7 @@ span.rating i {
   # video
   --------------------------------------------------------------*/
 .parent-element-to-video {
-  position: relative; /* or absolute or fixed */
+  position: relative;
 }
 video {
   position: absolute;
