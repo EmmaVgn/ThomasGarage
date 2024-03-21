@@ -1,4 +1,4 @@
-{% for m in models %}
+{% for m in modelRepository.findall() %}
 	<li class="nav-item">
 		<a class="nav-link" href="#">{{ m.name }}</a>
 	</li>

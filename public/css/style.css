@@ -390,13 +390,12 @@ span.rating i {
 @media (min-width: 960px) {
   .pw-vehicle-search-shape-brand-list .brand-model-list-container {
     display: flex;
-    margin-top: 53rem;
+    margin-top: 55rem;
   }
 }
 
 .pw-vehicle-search-shape-brand-list .brand-model-list-container h3 {
   display: block;
-  margin-bottom: 0;
   text-align: center;
 }
 
@@ -773,5 +772,11 @@ video {
   object-fit: cover;
   transform: translate(-50%, -50%); /* % of current element */
   margin-bottom: 30px;
-  margin-top: 10px;
+  /* margin-top: 10px;*/
+}
+
+@media screen and (max-width: 1279px) {
+  video {
+    display: none !important;
+  }
 }
