@@ -383,7 +383,7 @@ span.rating i {
 
 @media (min-width: 960px) {
   .pw-vehicle-search-shape-brand-list {
-    margin-top: 2rem;
+    margin-top: 55rem;
   }
 }
 
@@ -771,8 +771,6 @@ video {
   top: 50%;
   object-fit: cover;
   transform: translate(-50%, -50%); /* % of current element */
-  margin-bottom: 30px;
-  /* margin-top: 10px;*/
 }
 
 @media screen and (max-width: 1279px) {
